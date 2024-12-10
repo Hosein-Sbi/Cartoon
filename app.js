@@ -7,7 +7,8 @@ document.addEventListener("DOMContentLoaded", () => {
     const user = tg.initDataUnsafe.user;
 
     if (user) {
-        userInfo.textContent = `Hello, ${user.first_name} (${user.username})!`;
+        userInfo.textContent = `Hello, ${user.first_name} `;
+        // (${user.username})!`;
     } else {
         userInfo.textContent = "Hello, guest!";
     }
