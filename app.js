@@ -11,11 +11,12 @@ document.addEventListener("DOMContentLoaded", () => {
     if (user) {
         // userInfo.textContent = `Hello, ${user.first_name} `;
         alertBox.classList.add("alert-success");
-        alertBox.innerHTML = `<strong>Hello ${user.first_name}, </strong>Welcome to CarToonTv Mini App :)<button type="button" class="btn-close" data-bs-dismiss="alert"></button>`;
+        // alertBox.innerHTML = `<strong>Hello ${user.first_name}, </strong>Welcome to CarToonTv Mini App :)`;
+        alertBox.insertAdjacentHTML('beforebegin', '<strong>Hello ${user.first_name}, </strong>Welcome to CarToonTv Mini App :)');
     } else {
         // userInfo.textContent = "Hello, guest!";
         alertBox.classList.add("alert-danger");
-        alertBox.innerHTML = `<strong>Error: </strong>!اطلاعات شما در تلگرام یافت نشد<button type="button" class="btn-close" data-bs-dismiss="alert"></button>`;
+        alertBox.innerHTML = `<strong>Error: </strong>!اطلاعات شما در تلگرام یافت نشد`;
 
     }
 });
