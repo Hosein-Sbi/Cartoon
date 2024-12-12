@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", () => {
     if (user) {
         userInfo.textContent = `Hello, ${user.first_name} `;
         alertBox.classList.add("alert-success");
-        alertBox.innerHTML = `<strong>Success! </strong>Welcome to CarToonTv Mini App :)<button type="button" class="btn-close" data-bs-dismiss="alert"></button>`;
+        alertBox.innerHTML = `<strong>Success! Hello Hoseinsdnasd</strong>Welcome to CarToonTv Mini App :)<button type="button" class="btn-close" data-bs-dismiss="alert"></button>`;
     } else {
         userInfo.textContent = "Hello, guest!";
         alertBox.classList.add("alert-danger");
