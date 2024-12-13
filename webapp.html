@@ -20,6 +20,7 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="mynavbar">
+                <hr class="text-white my-2">
                 <ul class="navbar-nav me-auto">
                     <li class="nav-item text-end">
                         <a class="nav-link" href="javascript:void(0)">انیمیشن‌ها</a>
@@ -31,15 +32,36 @@
                         <a class="nav-link" href="https://telegram.me/Hosiew">پشتیبانی</a>
                     </li>
                 </ul>
-            <hr class="text-white my-2">
-            <form class="d-flex">
-                <input class="form-control me-2" type="text" placeholder="اسم کارتون رو وارد کن">
-                <button class="btn btn-primary" type="button">Search</button>
-            </form>
+                <!-- <hr class="text-white my-2"> -->
             </div>
         </div>
     </nav>
 
+    <!-- <div class="container rounded-bottom-pill bg-dark pb-3 px-5 col-5">
+        <form class="d-flex mx-auto">
+            <input class="form-control me-2 rounded-pill" dir="rtl" type="text" placeholder="اسم کارتون رو وارد کن">
+            <button class="btn btn-primary" type="button">Search</button>
+        </form>
+    </div> -->
+    <!-- <div class="container rounded-bottom-pill bg-dark pb-3 px-5 col-5">
+        <form class="d-flex mx-auto">
+            <div class="input-group">
+                <input class="form-control rounded-start-pill" dir="rtl" type="text" placeholder="اسم کارتون رو وارد کن">
+                <button class="btn btn-primary rounded-end-pill" type="button">🔎</button>
+            </div>
+        </form>
+    </div> -->
+    <div class="container rounded-bottom-pill bg-dark pb-3 px-5 col-5">
+        <form class="d-flex mx-auto">
+            <div class="input-group">
+                <input class="form-control rounded-start-pill" dir="rtl" type="text" placeholder="اسم کارتون رو وارد کن">
+                <button class="btn btn-primary rounded-end-pill" type="button">
+                    <i class="bi bi-search"></i>
+                </button>
+            </div>
+        </form>
+    </div>
+    
 
 
 
@@ -51,18 +73,16 @@
 
 
 
-
-    <div class="container mx-auto ">
+    <div style="height: 1000px;" class="container mx-auto ">
 
         <div id="login-alert" class="alert alert-dismissible show fade">
             <p id="user-info">Loading user info...</p>
             <!-- <button type="button" class="btn-close" data-bs-dismiss="alert"></button> -->
             <!-- <strong id="login-alert-title">Success!</strong> This alert box could indicate a successful or positive action. -->
         </div>
-        <!-- style="background-color: black;" -->
-        <div  class="text-center  mt-1">
+        <!-- <div  class="text-center  mt-1">
             <button id="close-btn" type="button" class="btn btn-danger">Close App</button>
-        </div>
+        </div> -->
         
     </div>
 </body>
